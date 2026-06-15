@@ -1,0 +1,77 @@
+# Node.js / React Frontend
+# Dependency directories
+/node_modules
+
+# Build output
+/build
+/dist
+/out
+
+# Environment variables
+# Keep your sensitive information out of version control!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Test coverage reports
+/coverage
+
+# PHP Backend
+# Dependency directories
+/php/vendor
+
+# Environment variables for PHP backend
+# Ensure these are not committed, especially in production environments.
+/php/.env
+/php/.env.local
+/php/.env.development.local
+/php/.env.test.local
+/php/.env.production.local
+
+# Composer lock file
+# For applications, it's generally recommended to commit composer.lock
+# to ensure consistent dependency versions across environments.
+# Uncomment the line below if you prefer to ignore it (e.g., for libraries).
+# /php/composer.lock
+
+# PHP specific caches and logs (common for frameworks like Laravel/Lumen)
+/php/storage/*.log
+/php/storage/framework/cache/*
+/php/storage/framework/sessions/*
+/php/storage/framework/views/*
+/php/bootstrap/cache/*.php
+
+# Database files (if SQLite is used, or other local DB files)
+# For production, database files should not be in version control.
+# Example: /php/database/database.sqlite
+
+# General / OS / IDE
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Miscellaneous logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
